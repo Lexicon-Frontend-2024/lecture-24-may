@@ -1,0 +1,81 @@
+<!-- The doctype just tells the browser that it can expect a html document of version 5. -->
+<!DOCTYPE html>
+
+<!-- Html is the root element of a html document. All other html content lives inside the html element. -->
+<html lang="en">
+  <!-- Head is for meta data on your webpage. -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- It's the display name that is shown in the tab in your browser. -->
+    <title>Lecture 24 May</title>
+  </head>
+
+  <!-- The body contains all the visible content on your website. -->
+  <body>
+    <h1>Hello!</h1>
+
+    <h2>Semantics</h2>
+    <p>
+      What is semantics? It's the convention of using the right HTML element at the right time and
+      for the right purpose. So by using semantic HTML we can explain to the devloper what the
+      specific element is used for. Here is some exampels of the most common semantic HTML.
+    </p>
+
+    <h3>Section</h3>
+    <p>
+      This is a section. Represents a grouping of content, typically with a heading. It is used to
+      divide the document into sections with relatet content.
+    </p>
+    <section>
+      <h4>About me</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sint quae blanditiis
+        consequatur, ullam quisquam enim laboriosam dolores in delectus vel, tempore, necessitatibus
+        maxime voluptate ipsum mollitia dolor distinctio architecto.
+      </p>
+    </section>
+
+    <h3>Article</h3>
+    <article>
+      Represents a self-contained pieac of content that could be independently distributed or
+      resued, such as a blog post or a newspaper article.
+    </article>
+
+    <h3>Header</h3>
+    <p>
+      Contains introductory content of the webpage. It can also conatin navigational links to
+      different parts of the webpage or other pages.
+    </p>
+    <header>
+      <h4>This is the amazing slogan!</h4>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <h3>Nav</h3>
+    <p>Represents a section of the webpage that is intended for navigation links.</p>
+    <nav>
+      <a href="#">Link A</a>
+      <a href="#">Link B</a>
+      <a href="#">Link C</a>
+    </nav>
+
+    <h3>Aside</h3>
+    <p>
+      Represents content that is related to the content around it and could be considered separate
+      or complementary.
+    </p>
+    <aside>This is the aside tag</aside>
+
+    <h3>Block element vs Inline Element</h3>
+    <p>Block element always takes the entire width of the page. That means there is no room for other elements on the same line, therefore the next element will be underneath. Examples, are sections, articles, div, nav, header and many more.</p>
+    <p>Inline elements are the opposite, they only take up width that correspons to the width of the content of the element. Examples are a-elements and span-elements.</p>
+  </body>
+</html>
