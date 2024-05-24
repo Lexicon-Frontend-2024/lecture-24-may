@@ -1,1 +1,31 @@
+h3 {
+  background-color: red;
+}
 
+.bg-blue {
+  background-color: blue;
+  color: white;
+}
+
+#bg-yellow {
+  background-color: yellow;
+  color: black;
+}
+
+h3 {
+  background-color: green;
+}
+
+h2 {
+  margin: 0;
+}
+
+div {
+  /* background-color: fuchsia; */
+  box-sizing: border-box;
+  border: 2px solid black;
+  margin: 20px;
+  height: 300px;
+  padding: 40px;
+  width: 300px;
+}
